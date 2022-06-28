@@ -1,20 +1,20 @@
 .lead__container {
-    margin: 64px auto 0;
-    width: 100%;
-    max-width: max-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  margin: 64px auto 0;
+  width: 100%;
+  max-width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 @media screen and (max-width: 1279px) {
-    .lead__container {
-      margin-top: 56px;
-    }
+  .lead__container {
+    margin-top: 56px;
   }
+}
   
-  @media screen and (max-width: 767px) {
-    .lead__container {
-      margin-top: 40px;
-    }
+@media screen and (max-width: 767px) {
+  .lead__container {
+    margin-top: 40px;
   }
+}

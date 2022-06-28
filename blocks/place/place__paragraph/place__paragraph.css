@@ -14,16 +14,16 @@
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
-  font-size: 16px;
-  line-height: 26px;
-  padding: 25px 0 0;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 25px 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
-  padding-left: 16px;
-  padding-right: 16px;
-  max-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 288px;
   }
 }
