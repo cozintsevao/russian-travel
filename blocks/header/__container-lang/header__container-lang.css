@@ -1,0 +1,5 @@
+.header__container-lang {
+  display: flex;
+  justify-content: center;
+  column-gap: 18px;
+}
