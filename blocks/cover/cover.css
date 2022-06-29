@@ -3,8 +3,6 @@
   margin: 92px auto;
   position: relative;
   display: grid;
-  grid-template-rows: repeat(2, min-content);
-  grid-gap: 32px;
   color:#fff;
 }
 
@@ -24,8 +22,14 @@
   opacity: .8;
 }
 
+@media screen and (max-width: 1023px) {
+  .cover {
+    margin: 90px auto 88px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .cover {
-    grid-gap: 16px;
+    margin: 66px auto 64px;
   }
 }
